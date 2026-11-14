@@ -1,61 +1,59 @@
-# 🎬 Movie Search App
+# Currency Converter
 
-A simple and interactive Movie Search Application built using **HTML, CSS, and JavaScript**. This application allows users to search for their favourite movies and explore movie details using the OMDb API.
+A simple and user-friendly Currency Converter web application built using **HTML, CSS, and JavaScript**. It allows users to convert one currency into another with the help of exchange rate APIs.
 
-## 🚀 Features
+## Features
 
-- 🔍 Search movies by title.
-- 🎥 Display movie posters and titles.
-- 📅 Show movie release year.
-- ⭐ Fetch movie information using the OMDb API.
-- 📱 Simple and user-friendly interface.
-- ⚡ Dynamic search results using JavaScript Fetch API.
+- Convert one currency into another.
+- Supports multiple international currencies.
+- Select source and target currencies.
+- Enter an amount to get the converted value.
+- Fetch exchange rates using an API.
+- Simple and interactive user interface.
+- Easy currency conversion experience.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** – Structure of the application.
 - **CSS3** – Styling and responsive design.
-- **JavaScript** – Functionality and API integration.
-- **OMDb API** – Fetching movie information.
+- **JavaScript** – Conversion logic and functionality.
+- **Currency Exchange API** – Fetching exchange rates.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
-Movie-Search-App/
+Currency-Converter/
 │
 ├── index.html
 ├── style.css
 └── script.js
 ```
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
-1. Clone this repository:
+1. Clone the repository:
 
    ```bash
    git clone YOUR_GITHUB_REPOSITORY_LINK
    ```
 
 2. Open the project folder in VS Code.
+3. Open `index.html` in your browser.
+4. Select the currencies you want to convert.
+5. Enter the amount and click the convert button.
+6. View the converted currency value.
 
-3. Get your API key from the OMDb API website.
+## What I Learned
 
-4. Add your API key in the `script.js` file.
-
-5. Open `index.html` in your browser.
-
-6. Search for any movie and explore the results!
-
-## 📚 What I Learned
-
-- Working with third-party APIs.
-- Fetching data using JavaScript Fetch API.
+- Working with currency exchange APIs.
+- Fetching exchange rate data.
+- Using JavaScript Fetch API.
 - Handling JSON responses.
-- Using asynchronous JavaScript (async/await).
-- Dynamically displaying API data on a webpage.
-- Understanding API integration in frontend development.
+- DOM manipulation and event handling.
+- Implementing currency conversion logic.
+- Creating interactive web applications.
 
-## 👩‍💻 Developed By
+## Developed By
 
 **Saniya Khatoon**
 
