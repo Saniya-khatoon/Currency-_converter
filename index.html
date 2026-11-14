@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="converter-box">
+
+            <h1>Currency Converter</h1>
+            <p class="subtitle">Convert currencies with ease</p>
+
+            <div class="input-group">
+                <label for="amount">Enter Amount</label>
+                <input type="number" id="amount" placeholder="Enter amount" value="1" min="0">
+            </div>
+
+            <div class="currency-section">
+
+                <div class="input-group">
+                    <label for="fromCurrency">From</label>
+                    <select id="fromCurrency">
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                        <option value="AUD">AUD - Australian Dollar</option>
+                        <option value="CAD">CAD - Canadian Dollar</option>
+                    </select>
+                </div>
+
+                <button id="swapBtn" type="button" title="Swap currencies">⇄</button>
+
+                <div class="input-group">
+                    <label for="toCurrency">To</label>
+                    <select id="toCurrency">
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                        <option value="AUD">AUD - Australian Dollar</option>
+                        <option value="CAD">CAD - Canadian Dollar</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button id="convertBtn" type="button">Convert Currency</button>
+
+            <div id="result" class="result">
+                <p>Converted Amount</p>
+                <h2 id="convertedAmount">--</h2>
+                <small id="exchangeRate"></small>
+            </div>
+
+            <p id="message" class="message" aria-live="polite"></p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
